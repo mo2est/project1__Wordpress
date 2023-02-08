@@ -1,0 +1,19 @@
+.gift {
+    padding: 86px 0;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__text {
+        margin-top: 42px;
+        color: #252525;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 43px;
+        text-align: center;
+    }
+    &__btn  {
+        margin-top: 52px;
+    }
+}

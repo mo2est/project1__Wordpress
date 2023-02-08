@@ -14,6 +14,19 @@
     width: 1140px;
     margin: 0 auto;
 }
+.divider {
+    width: 217px;
+    height: 4px;
+    background-color: $yellow;
+    margin: 0 auto;  
+}
+
 
 @import 'blocks/promo';
 @import 'blocks/button';
+@import 'blocks/waiting';
+@import 'blocks/optimization';
+@import 'blocks/finish';
+@import 'blocks/gift';
+@import 'blocks/webinar';
+@import 'blocks/footer';

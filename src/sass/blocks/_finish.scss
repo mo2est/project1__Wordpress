@@ -1,0 +1,42 @@
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../../img/finish/finish_bg.jpg') center center/cover no-repeat;
+    &__title {
+        color: #efefef;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 41px;
+        justify-content: space-between;
+    }
+    &__round {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        background-color: #b4e2ff;
+        border-radius: 100%;
+    }
+    &__text {
+        margin-top: 26px;
+        width: 204px;
+        color: #efefef;
+        font-size: 17px;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+
+.finish .divider {
+    margin-top: 23px;
+}

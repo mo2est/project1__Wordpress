@@ -1,0 +1,34 @@
+.optimization {
+    position: relative;
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+    &__title {
+        margin-left: 391px;
+        color: #299cbd;
+        font-size: 30px;
+        font-weight: 900;
+        font-style: normal;
+        line-height: 12px;
+        text-transform: uppercase;
+        left: 391px;
+    }
+    &__text {
+        margin-top: 25px;
+        width: 750px;
+        margin-left: 391px;
+    }
+    &__img {
+        display: block;
+        position: absolute;
+        top: 48px;
+        z-index: -1;
+        left: 130px;
+    }
+}
+
+.optimization span {
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}

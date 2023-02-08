@@ -3,7 +3,7 @@
     background: url('../../img/promo/promo_bg.jpg') center center / cover no-repeat;
     padding: 39px 0 62px 0;
     &__title {
-        color: #f9bf3b;
+        color: $yellow;
         font-size: 41px;
         font-weight: 900;
         font-style: normal;
@@ -56,7 +56,7 @@
         line-height: 28px;
         text-align: center;
         span {
-            color: #f9bf3b;
+            color: $yellow;
             font-weight: 700;
             font-style: normal;
             letter-spacing: normal;
